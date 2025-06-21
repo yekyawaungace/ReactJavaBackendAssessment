@@ -1,0 +1,248 @@
+2025-06-21T13:19:31.336+07:00  INFO 18244 --- [placesearch] [main] c.r.placesearch.PlacesearchApplication   : Starting PlacesearchApplication using Java 18.0.2 with PID 18244 (C:\Thai\2025\June\Linda\Java\React\ReactJavaBackendAssessment\target\classes started by yekyawaung in C:\Thai\2025\June\Linda\Java\React\ReactJavaBackendAssessment)
+2025-06-21T13:19:31.344+07:00  INFO 18244 --- [placesearch] [main] c.r.placesearch.PlacesearchApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-06-21T13:19:32.031+07:00  INFO 18244 --- [placesearch] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-21T13:19:32.108+07:00  INFO 18244 --- [placesearch] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interface.
+2025-06-21T13:19:32.625+07:00  INFO 18244 --- [placesearch] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-06-21T13:19:32.642+07:00  INFO 18244 --- [placesearch] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-21T13:19:32.643+07:00  INFO 18244 --- [placesearch] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-21T13:19:32.695+07:00  INFO 18244 --- [placesearch] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-21T13:19:32.696+07:00  INFO 18244 --- [placesearch] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1295 ms
+2025-06-21T13:19:32.910+07:00  INFO 18244 --- [placesearch] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-21T13:19:32.981+07:00  INFO 18244 --- [placesearch] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-06-21T13:19:33.016+07:00  INFO 18244 --- [placesearch] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-21T13:19:33.240+07:00  INFO 18244 --- [placesearch] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-21T13:19:33.284+07:00  INFO 18244 --- [placesearch] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-21T13:19:33.565+07:00  INFO 18244 --- [placesearch] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7adae08e
+2025-06-21T13:19:33.566+07:00  INFO 18244 --- [placesearch] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-21T13:19:33.596+07:00  WARN 18244 --- [placesearch] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-06-21T13:19:33.596+07:00  WARN 18244 --- [placesearch] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-06-21T13:19:33.611+07:00  INFO 18244 --- [placesearch] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-21T13:19:34.347+07:00  INFO 18244 --- [placesearch] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-21T13:19:34.388+07:00  INFO 18244 --- [placesearch] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-21T13:19:34.656+07:00  WARN 18244 --- [placesearch] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-21T13:19:35.039+07:00  INFO 18244 --- [placesearch] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-06-21T13:19:35.047+07:00  INFO 18244 --- [placesearch] [main] c.r.placesearch.PlacesearchApplication   : Started PlacesearchApplication in 4.252 seconds (process running for 4.809)
+2025-06-21T13:19:43.395+07:00  INFO 18244 --- [placesearch] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-21T13:19:43.395+07:00  INFO 18244 --- [placesearch] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-21T13:19:43.395+07:00  INFO 18244 --- [placesearch] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-06-21T13:20:21.031+07:00  INFO 18244 --- [placesearch] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-21T13:20:21.193+07:00  INFO 18244 --- [placesearch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-21T13:20:21.196+07:00  INFO 18244 --- [placesearch] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-21T13:20:21.198+07:00  INFO 18244 --- [placesearch] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-21T13:20:21.207+07:00  INFO 18244 --- [placesearch] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-21T13:20:38.264+07:00  INFO 13648 --- [placesearch] [main] c.r.placesearch.PlacesearchApplication   : Starting PlacesearchApplication using Java 18.0.2 with PID 13648 (C:\Thai\2025\June\Linda\Java\React\ReactJavaBackendAssessment\target\classes started by yekyawaung in C:\Thai\2025\June\Linda\Java\React\ReactJavaBackendAssessment)
+2025-06-21T13:20:38.267+07:00  INFO 13648 --- [placesearch] [main] c.r.placesearch.PlacesearchApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-06-21T13:20:39.111+07:00  INFO 13648 --- [placesearch] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-21T13:20:39.163+07:00  INFO 13648 --- [placesearch] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interface.
+2025-06-21T13:20:39.739+07:00  INFO 13648 --- [placesearch] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-06-21T13:20:39.751+07:00  INFO 13648 --- [placesearch] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-21T13:20:39.751+07:00  INFO 13648 --- [placesearch] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-21T13:20:39.815+07:00  INFO 13648 --- [placesearch] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-21T13:20:39.815+07:00  INFO 13648 --- [placesearch] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1489 ms
+2025-06-21T13:20:40.063+07:00  INFO 13648 --- [placesearch] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-21T13:20:40.122+07:00  INFO 13648 --- [placesearch] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-06-21T13:20:40.163+07:00  INFO 13648 --- [placesearch] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-21T13:20:40.389+07:00  INFO 13648 --- [placesearch] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-21T13:20:40.417+07:00  INFO 13648 --- [placesearch] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-21T13:20:40.690+07:00  INFO 13648 --- [placesearch] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@645ba24a
+2025-06-21T13:20:40.692+07:00  INFO 13648 --- [placesearch] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-21T13:20:40.728+07:00  WARN 13648 --- [placesearch] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-06-21T13:20:40.729+07:00  WARN 13648 --- [placesearch] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-06-21T13:20:40.746+07:00  INFO 13648 --- [placesearch] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-21T13:20:41.450+07:00  INFO 13648 --- [placesearch] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-21T13:20:41.485+07:00  INFO 13648 --- [placesearch] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-21T13:20:41.890+07:00  WARN 13648 --- [placesearch] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-21T13:20:41.939+07:00  INFO 13648 --- [placesearch] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-06-21T13:20:42.384+07:00  INFO 13648 --- [placesearch] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-06-21T13:20:42.393+07:00  INFO 13648 --- [placesearch] [main] c.r.placesearch.PlacesearchApplication   : Started PlacesearchApplication in 4.691 seconds (process running for 5.306)
+2025-06-21T13:20:45.982+07:00  INFO 13648 --- [placesearch] [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-21T13:20:45.982+07:00  INFO 13648 --- [placesearch] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-21T13:20:45.983+07:00  INFO 13648 --- [placesearch] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-06-21T13:20:46.468+07:00  INFO 13648 --- [placesearch] [http-nio-9090-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 199 ms
+2025-06-21T13:20:51.578+07:00  INFO 13648 --- [placesearch] [http-nio-9090-exec-10] c.r.p.c.FavoritePlaceController          : getAllFavorites
+2025-06-21T13:21:08.522+07:00  INFO 13648 --- [placesearch] [http-nio-9090-exec-2] c.r.p.c.FavoritePlaceController          : saveFavorite : 1
+2025-06-21T13:21:15.408+07:00  INFO 13648 --- [placesearch] [http-nio-9090-exec-1] c.r.p.c.FavoritePlaceController          : getAllFavorites
+2025-06-21T13:21:39.427+07:00  INFO 13648 --- [placesearch] [http-nio-9090-exec-4] c.r.p.c.FavoritePlaceController          : deleteFavorite by id : 1
+2025-06-21T13:24:01.309+07:00  INFO 13648 --- [placesearch] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-21T13:24:01.435+07:00  INFO 13648 --- [placesearch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-21T13:24:01.440+07:00  INFO 13648 --- [placesearch] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-21T13:24:01.442+07:00  INFO 13648 --- [placesearch] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-21T13:24:01.449+07:00  INFO 13648 --- [placesearch] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-21T13:34:48.871+07:00  INFO 12032 --- [placesearch] [main] c.r.placesearch.PlacesearchApplication   : Starting PlacesearchApplication using Java 18.0.2 with PID 12032 (C:\Thai\2025\June\Linda\Java\React\ReactJavaBackendAssessment\target\classes started by yekyawaung in C:\Thai\2025\June\Linda\Java\React\ReactJavaBackendAssessment)
+2025-06-21T13:34:48.875+07:00  INFO 12032 --- [placesearch] [main] c.r.placesearch.PlacesearchApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-06-21T13:34:49.708+07:00  INFO 12032 --- [placesearch] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-21T13:34:49.771+07:00  INFO 12032 --- [placesearch] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interface.
+2025-06-21T13:34:50.353+07:00  INFO 12032 --- [placesearch] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-06-21T13:34:50.363+07:00  INFO 12032 --- [placesearch] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-21T13:34:50.364+07:00  INFO 12032 --- [placesearch] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-21T13:34:50.429+07:00  INFO 12032 --- [placesearch] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-21T13:34:50.429+07:00  INFO 12032 --- [placesearch] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1501 ms
+2025-06-21T13:34:50.623+07:00  INFO 12032 --- [placesearch] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-21T13:34:50.669+07:00  INFO 12032 --- [placesearch] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-06-21T13:34:50.694+07:00  INFO 12032 --- [placesearch] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-21T13:34:50.927+07:00  INFO 12032 --- [placesearch] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-21T13:34:50.953+07:00  INFO 12032 --- [placesearch] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-21T13:34:51.245+07:00  INFO 12032 --- [placesearch] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2299d903
+2025-06-21T13:34:51.247+07:00  INFO 12032 --- [placesearch] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-21T13:34:51.281+07:00  WARN 12032 --- [placesearch] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-06-21T13:34:51.282+07:00  WARN 12032 --- [placesearch] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-06-21T13:34:51.295+07:00  INFO 12032 --- [placesearch] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-21T13:34:52.005+07:00  INFO 12032 --- [placesearch] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-21T13:34:52.039+07:00  INFO 12032 --- [placesearch] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-21T13:34:52.329+07:00  WARN 12032 --- [placesearch] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'favoritePlaceController': Unsatisfied dependency expressed through field 'favoritePlaceService': No qualifying bean of type 'com.reactassessment.placesearch.service.imp.FavoritePlaceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2025-06-21T13:34:52.329+07:00  INFO 12032 --- [placesearch] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-21T13:34:52.332+07:00  INFO 12032 --- [placesearch] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-21T13:34:52.339+07:00  INFO 12032 --- [placesearch] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-21T13:34:52.341+07:00  INFO 12032 --- [placesearch] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-06-21T13:34:52.351+07:00  INFO 12032 --- [placesearch] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-06-21T13:34:52.377+07:00 ERROR 12032 --- [placesearch] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field favoritePlaceService in com.reactassessment.placesearch.controller.FavoritePlaceController required a bean of type 'com.reactassessment.placesearch.service.imp.FavoritePlaceService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.reactassessment.placesearch.service.imp.FavoritePlaceService' in your configuration.
+
+2025-06-21T13:35:33.124+07:00  INFO 6672 --- [placesearch] [main] c.r.placesearch.PlacesearchApplication   : Starting PlacesearchApplication using Java 18.0.2 with PID 6672 (C:\Thai\2025\June\Linda\Java\React\ReactJavaBackendAssessment\target\classes started by yekyawaung in C:\Thai\2025\June\Linda\Java\React\ReactJavaBackendAssessment)
+2025-06-21T13:35:33.134+07:00  INFO 6672 --- [placesearch] [main] c.r.placesearch.PlacesearchApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-06-21T13:35:33.987+07:00  INFO 6672 --- [placesearch] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-21T13:35:34.045+07:00  INFO 6672 --- [placesearch] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interface.
+2025-06-21T13:35:34.657+07:00  INFO 6672 --- [placesearch] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-06-21T13:35:34.668+07:00  INFO 6672 --- [placesearch] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-21T13:35:34.669+07:00  INFO 6672 --- [placesearch] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-21T13:35:34.733+07:00  INFO 6672 --- [placesearch] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-21T13:35:34.733+07:00  INFO 6672 --- [placesearch] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1534 ms
+2025-06-21T13:35:34.932+07:00  INFO 6672 --- [placesearch] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-21T13:35:34.980+07:00  INFO 6672 --- [placesearch] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-06-21T13:35:35.008+07:00  INFO 6672 --- [placesearch] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-21T13:35:35.235+07:00  INFO 6672 --- [placesearch] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-21T13:35:35.265+07:00  INFO 6672 --- [placesearch] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-21T13:35:35.553+07:00  INFO 6672 --- [placesearch] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2299d903
+2025-06-21T13:35:35.554+07:00  INFO 6672 --- [placesearch] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-21T13:35:35.584+07:00  WARN 6672 --- [placesearch] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-06-21T13:35:35.585+07:00  WARN 6672 --- [placesearch] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-06-21T13:35:35.604+07:00  INFO 6672 --- [placesearch] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-21T13:35:36.316+07:00  INFO 6672 --- [placesearch] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-21T13:35:36.350+07:00  INFO 6672 --- [placesearch] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-21T13:35:36.618+07:00  WARN 6672 --- [placesearch] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'favoritePlaceController': Unsatisfied dependency expressed through field 'favoritePlaceService': No qualifying bean of type 'com.reactassessment.placesearch.service.imp.FavoritePlaceService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2025-06-21T13:35:36.619+07:00  INFO 6672 --- [placesearch] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-21T13:35:36.622+07:00  INFO 6672 --- [placesearch] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-21T13:35:36.631+07:00  INFO 6672 --- [placesearch] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-21T13:35:36.634+07:00  INFO 6672 --- [placesearch] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-06-21T13:35:36.648+07:00  INFO 6672 --- [placesearch] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-06-21T13:35:36.670+07:00 ERROR 6672 --- [placesearch] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field favoritePlaceService in com.reactassessment.placesearch.controller.FavoritePlaceController required a bean of type 'com.reactassessment.placesearch.service.imp.FavoritePlaceService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.reactassessment.placesearch.service.imp.FavoritePlaceService' in your configuration.
+
+2025-06-21T13:35:57.324+07:00  INFO 17764 --- [placesearch] [main] c.r.placesearch.PlacesearchApplication   : Starting PlacesearchApplication using Java 18.0.2 with PID 17764 (C:\Thai\2025\June\Linda\Java\React\ReactJavaBackendAssessment\target\classes started by yekyawaung in C:\Thai\2025\June\Linda\Java\React\ReactJavaBackendAssessment)
+2025-06-21T13:35:57.327+07:00  INFO 17764 --- [placesearch] [main] c.r.placesearch.PlacesearchApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-06-21T13:35:58.198+07:00  INFO 17764 --- [placesearch] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-21T13:35:58.276+07:00  INFO 17764 --- [placesearch] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interface.
+2025-06-21T13:35:58.821+07:00  INFO 17764 --- [placesearch] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-06-21T13:35:58.830+07:00  INFO 17764 --- [placesearch] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-21T13:35:58.830+07:00  INFO 17764 --- [placesearch] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-21T13:35:58.888+07:00  INFO 17764 --- [placesearch] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-21T13:35:58.888+07:00  INFO 17764 --- [placesearch] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1503 ms
+2025-06-21T13:35:59.103+07:00  INFO 17764 --- [placesearch] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-21T13:35:59.153+07:00  INFO 17764 --- [placesearch] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-06-21T13:35:59.185+07:00  INFO 17764 --- [placesearch] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-21T13:35:59.411+07:00  INFO 17764 --- [placesearch] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-21T13:35:59.444+07:00  INFO 17764 --- [placesearch] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-21T13:35:59.710+07:00  INFO 17764 --- [placesearch] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@536da29c
+2025-06-21T13:35:59.711+07:00  INFO 17764 --- [placesearch] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-21T13:35:59.748+07:00  WARN 17764 --- [placesearch] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-06-21T13:35:59.749+07:00  WARN 17764 --- [placesearch] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-06-21T13:35:59.765+07:00  INFO 17764 --- [placesearch] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-21T13:36:00.551+07:00  INFO 17764 --- [placesearch] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-21T13:36:00.588+07:00  INFO 17764 --- [placesearch] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-21T13:36:00.999+07:00  WARN 17764 --- [placesearch] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-21T13:36:01.056+07:00  INFO 17764 --- [placesearch] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-06-21T13:36:01.514+07:00  INFO 17764 --- [placesearch] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-06-21T13:36:01.524+07:00  INFO 17764 --- [placesearch] [main] c.r.placesearch.PlacesearchApplication   : Started PlacesearchApplication in 4.788 seconds (process running for 5.415)
+2025-06-21T13:36:08.905+07:00  INFO 17764 --- [placesearch] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-21T13:36:08.905+07:00  INFO 17764 --- [placesearch] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-21T13:36:08.905+07:00  INFO 17764 --- [placesearch] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-06-21T13:36:09.682+07:00  INFO 17764 --- [placesearch] [http-nio-9090-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 440 ms
+2025-06-21T13:36:19.607+07:00  INFO 17764 --- [placesearch] [http-nio-9090-exec-5] c.r.p.c.FavoritePlaceController          : getAllFavorites
+2025-06-21T13:36:19.855+07:00  INFO 17764 --- [placesearch] [http-nio-9090-exec-5] c.r.p.c.FavoritePlaceController          : FavoritePlace fetched: 0
+2025-06-21T13:36:41.623+07:00  INFO 17764 --- [placesearch] [http-nio-9090-exec-6] c.r.p.c.FavoritePlaceController          : FavoritePlace have been created Successfully : 1
+2025-06-21T13:36:47.431+07:00  INFO 17764 --- [placesearch] [http-nio-9090-exec-7] c.r.p.c.FavoritePlaceController          : getAllFavorites
+2025-06-21T13:36:47.437+07:00  INFO 17764 --- [placesearch] [http-nio-9090-exec-7] c.r.p.c.FavoritePlaceController          : FavoritePlace fetched: 1
+2025-06-21T13:40:10.565+07:00  INFO 17764 --- [placesearch] [http-nio-9090-exec-10] c.r.p.c.FavoritePlaceController          : getAllFavorites
+2025-06-21T13:40:10.571+07:00  INFO 17764 --- [placesearch] [http-nio-9090-exec-10] c.r.p.c.FavoritePlaceController          : FavoritePlace fetched: 1
+2025-06-21T13:41:05.730+07:00  INFO 17764 --- [placesearch] [http-nio-9090-exec-1] c.r.p.c.FavoritePlaceController          : getAllFavorites
+2025-06-21T13:41:05.730+07:00  INFO 17764 --- [placesearch] [http-nio-9090-exec-1] c.r.p.c.FavoritePlaceController          : FavoritePlace fetched: 1
+2025-06-21T13:42:29.087+07:00  INFO 17764 --- [placesearch] [http-nio-9090-exec-6] c.r.p.c.FavoritePlaceController          : FavoritePlace have been created Successfully : 3
+2025-06-21T13:43:05.863+07:00  WARN 17764 --- [placesearch] [http-nio-9090-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2025-06-21T13:43:20.206+07:00  INFO 17764 --- [placesearch] [http-nio-9090-exec-8] c.r.p.c.FavoritePlaceController          : deleteFavorite by id : 1
+2025-06-21T13:43:47.990+07:00  INFO 17764 --- [placesearch] [http-nio-9090-exec-9] c.r.p.c.FavoritePlaceController          : deleteFavorite by id : 2
+2025-06-21T13:44:05.855+07:00  INFO 17764 --- [placesearch] [http-nio-9090-exec-10] c.r.p.c.FavoritePlaceController          : deleteFavorite by id : 21
+2025-06-21T13:44:11.717+07:00  INFO 17764 --- [placesearch] [http-nio-9090-exec-2] c.r.p.c.FavoritePlaceController          : deleteFavorite by id : 3
+2025-06-21T13:45:27.444+07:00  INFO 17764 --- [placesearch] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-21T13:45:27.593+07:00  INFO 17764 --- [placesearch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-21T13:45:27.596+07:00  INFO 17764 --- [placesearch] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-21T13:45:27.599+07:00  INFO 17764 --- [placesearch] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-21T13:45:27.604+07:00  INFO 17764 --- [placesearch] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
