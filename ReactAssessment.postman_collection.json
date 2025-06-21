@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "f41b3ded-dae4-4572-8d60-8c0e7af7f906",
+		"name": "ReactAssessment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19415019"
+	},
+	"item": [
+		{
+			"name": "favoritelist",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9090/api/favorite",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"api",
+						"favorite"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "favoritecreate",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n  \"name\": \"3\",\r\n  \"address\": \"3\",\r\n  \"lat\": 3,\r\n  \"lng\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/api/favorite",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"api",
+						"favorite"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "favoritedelete",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9090/api/favorite/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"api",
+						"favorite",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
